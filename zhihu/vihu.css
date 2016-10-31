@@ -1,0 +1,445 @@
+div{
+  /*outline-color: gray;
+  outline-style: dashed;
+  outline-width: 1px;*/
+}
+body {
+  margin:0;0;
+}
+.nav{
+  background: rgb(34, 120, 210);
+  color: white;
+  margin: 0px;0px;
+  width: 100%;
+  height: 50px;
+}
+
+#nav-logo {
+  background-image: url(/学习/Python_web/作业/class11vihu/static/zhihulogo.png);
+  background-repeat: no-repeat;
+  background-position: 15px 10px;
+  width: 90px;
+  height: 100%;
+  display: inline-block;
+  margin-left: 100px;
+  position: relative;
+
+}
+.nav-search-text{
+  display: inline-block;
+  border-radius: 5px;
+  width: 260px;
+  border-width: 1px;
+  border-style: solid;
+  border-color: rgb(10, 128, 232);
+  font-size: 14px;
+  margin-top: 8px;
+  margin-bottom: 8px;
+  padding:8px;
+  position: absolute;
+}
+.nav-search-button{
+  display: inline-block;
+  background:rgb(10, 134, 243);
+  width: 50px;
+  height: 35px;
+  border-top-right-radius: 5px;
+  border-bottom-right-radius: 5px;
+  border-style: solid;
+  border-width: 1px;
+  border-color: #045bb2;;
+  margin-top: 8px;
+  margin-bottom: 8px;
+  position: relative;
+  left:228px;
+}
+.nav-search-button-sou-icon{
+  background-image: url(/学习/Python_web/作业/class11vihu/static/sou1.jpg);
+  background-repeat: no-repeat;
+  background-position: 2px -271px;
+  display: inline-block;
+  width: 25px;
+  height: 25px;
+  vertical-align: middle;
+}
+
+.nav-menu-all{
+  display: inline-block;
+  width: 60px;
+  height: 100%;
+  font-size: 15px;
+  color: white;
+  margin-top:17px;
+  margin-bottom:16px;
+  text-decoration: none;
+  text-align: center;
+}
+.nav-menu-s{
+  margin-left: 255px;
+}
+.nav-menu-h{
+  margin-left: 15px;
+}
+.nav-menu-f{
+  margin-left: 15px;
+}
+.nav-menu-x{
+  margin-left: 15px;
+}
+.nav-button-t{
+  display: inline-block;
+  background:rgb(10, 134, 243);
+  width: 75px;
+  height: 35px;
+  border-radius: 5px;
+  border-style: solid;
+  border-width: 1px;
+  border-color: #045bb2;
+  margin-top: 8px;
+  margin-bottom: 7px;
+  padding-top: 5px;
+  padding-right: 10px;
+  padding-bottom: 5px;
+  padding-left: 10px;
+  font-size: 15px;
+  color: white;
+  margin-left: 100px;
+  position: absolute;
+  left: -187px;
+}
+.nav-me{
+  background: #066ECA;
+  display: inline-block;;
+  position: relative;
+  left: 221px;
+}
+.nav-me-img{
+  width: 30px;
+  height: 30px;
+  margin-top: 11px;
+  margin-left: 14px;
+}
+.nav-me-x{
+  margin-right: 20px;
+}
+.container{
+  width: 90%;
+  margin: 0 auto;
+}
+.content-top{
+  border-color: lightgray;
+  border-width: 1px;
+  border-radius: 5px;
+  border-style: solid;
+  margin-top: 20px;
+  margin-right: 20px;
+  margin-bottom:20px;
+  margin-left: 60px;
+  height: 328px;
+}
+.content-top-aboutme-img{
+  width: 120px;
+  height: 120px;
+  display: inline-block;
+  border-radius: 5px;
+  margin-top: 12px;
+  margin-right: 25px;
+  margin-left: 25px;
+  margin-bottom: 25px;
+}
+.content-top-aboutme-things-div{
+  color: #2B66B1;
+}
+.content-top-aboutme-things-h{
+  display: inline-block;
+  position: relative;
+  top: -165px;
+  left: 175px;
+  /*margin-top: 16px;
+  margin-bottom: 4px;*/
+}
+.content-top-aboutme-things-1{
+  position: relative;
+  top: -132px;
+  left: 130px;
+  margin-top: 10px;
+  font-size: 14px;
+  display: inline-block;
+}
+.content-top-aboutme-things-2{
+  position: relative;
+  top: -100px;
+  left: 3px;
+  margin-top: 10px;
+  font-size: 14px;
+  display: inline-block;
+}
+.content-top-aboutme-things-3{
+  position: relative;
+  top: -70px;
+  left: -89px;
+  margin-top: 10px;
+  font-size: 14px;
+  display: inline-block;
+}
+.content-top-aboutme-things-4{
+  position: relative;
+  top: -40px;
+  left: -182px;
+  margin-top: 10px;
+  font-size: 14px;
+  display: inline-block;
+}
+.content-top-aboutme-things-5{
+  position: relative;
+  top: -56px;
+  left: 175px;
+  margin-top: 10px;
+  font-size: 14px;
+  width: 485px;
+  padding-top: 15px;
+  border-top-width: 1px;
+  border-top-style: dotted;
+  border-top-color: lightgray;
+}
+.content-top-get{
+  border-top-width: 1px;
+  border-top-style: dotted;
+  border-top-color: lightgray;
+  position: relative;
+  top: -38px;
+}
+.content-top-get-p{
+  display: inline-block;
+  margin-left: 20px;
+  /*position: relative;
+  top: -143px;
+  left: 30px;*/
+}
+.content-top-get-botton{
+  display: inline-block;
+  position: relative;
+  /*top: -143px;*/
+  right: -388px;
+  border-radius: 5px;
+  background: #8ABF26;
+  border-width: 1px;
+  width: 112px;
+  height: 33px;
+  font-size: 14px;
+}
+.content-top-things{
+  width: 100%;
+  height: 50px;
+  background-color: #F7F7F7;
+  border-color: #DDDDDD;
+  border-width: 1px;
+  border-style: solid;
+  border-bottom-left-radius: 5px;
+  border-bottom-right-radius: 5px;
+  position: relative;
+  top: -35px;
+  left: -1px;
+}
+.content-top-things-all{
+  display: inline-block;
+  width: 85px;
+  height: 20px;
+  font-size: 15px;
+  color: black;
+  margin-top:17px;
+  margin-bottom:13px;
+  text-decoration: none;
+  text-align: center;
+}
+.content-top-things-home{
+  width: 70px;
+  height: 52px;
+  display: inline-block;
+  border-bottom-left-radius: 5px;
+  border-style: solid;
+  border-width: 1px;
+  border-color: #DDDDDD;
+  background-color: #eeeeee;
+  position: relative;
+  left: -1px;
+  top: -1px;
+}
+.content-top-things-home-icon{
+  background-image: url(/学习/Python_web/作业/class11vihu/static/all.png);
+  background-repeat: no-repeat;
+  background-position: -146px -160px;
+  display: inline-block;
+  width: 25px;
+  height: 25px;
+  vertical-align: middle;
+}
+.content-trends{
+  border-color: lightgray;
+  border-width: 1px;
+  border-radius: 5px;
+  border-style: solid;
+  margin-top: 20px;
+  margin-right: 20px;
+  margin-bottom:20px;
+  margin-left: 60px;
+  height: 368px;
+}
+.content-trends-head{
+  border-bottom-color: lightgray;
+  border-bottom-width: 1px;
+  border-bottom-style: solid;
+}
+.content-trends-head-p{
+  padding-left: 15px;
+}
+.content-trends-items{
+  padding-left: 15px;
+  padding-right: 15px;
+}
+.content-trends-items-span{
+  display: inline-block;
+  margin-left: 510px;
+}
+.content-trends-items-div{
+  border-bottom-color: lightgray;
+  border-bottom-width: 1px;
+  border-bottom-style: dotted;
+  padding-bottom: 10px;
+  width: 630px;
+}
+.content-trends-items-a {
+  text-decoration: none;
+  color: #2B66B1;
+  display: block;
+}
+a:hover {
+    text-decoration: underline;
+}
+.content-trends-items-z-1-w-b{
+  background: #eff6fa;
+  color: #2B66B1;
+  width: 40px;
+  height: 26px;
+  border-radius: 5px;
+  border-color: #eff6fa;
+  border-width: 1px;
+  margin-top: 5px;
+  margin-right: 5px;
+}
+button:hover{
+  background: #698ebf;
+}
+.content-trends-items-z-1-w-hvida{
+  padding-left: 50px;
+  margin-top: -2px;
+  font-size: 14px;
+  color: #464040;
+}
+.content-trends-items-z-1-w-p{
+  font-size: 14px;
+  display: inline-block;
+}
+.content-trends-more-b{
+  width: 628px;
+  height: 30px;
+  border-color: #DDDDDD;
+  border-width: 1px;
+  border-style: solid;
+  border-radius: 5px;
+  background: #F7F7F7;
+  text-align: center;
+  font-size: 15px;
+  color: #655D5D;
+  display: inline-block;
+  margin-top: 25px;
+  margin-bottom: 25px;
+  }
+.font14{
+  font-size: 14px;
+  color: #9C9999;
+}
+.font15{
+  font-size: 17px;
+  color: #5F5A5A;
+  position: relative;
+  top: 8px;
+  font-weight: bold;
+}
+/*.content-trends-items-g-1-p{
+  color: #9C9999;
+}*/
+.sidebar{
+  margin-top: 20px;
+  margin-right: 20px;
+  margin-bottom:20px;
+  margin-left: 60px;
+  height: 800px;
+}
+.sidebar-things-fans{
+  border-bottom-color: lightgray;
+  border-bottom-width: 1px;
+  border-bottom-style: solid;;
+  padding-bottom: 10px;
+  width: 285px;
+  height: 45px
+}
+.sidebar-things-fans-1{
+  border-right-color: lightgray;
+  border-right-width: 1px;
+  border-right-style: solid;;
+  padding-right: 35px;
+  height: 55px;
+  width: 75px;
+}
+.sidebar-things-fans-2{
+  position: relative;
+  right: 95px;
+}
+.sidebar-things-div{
+  border-bottom-color: lightgray;
+  border-bottom-width: 1px;
+  border-bottom-style: solid;
+  padding-top: 0px;
+  padding-bottom: 10px;
+  width: 285px;
+}
+.sidebar-things-zl-span{
+  color: #2B66B1;
+}
+.sidebar-things-p{
+  font-size: 15px;
+  font-weight: bold;
+}
+.sidebar-things-ll{
+  padding-top: 10px;
+}
+.sidebar-things-img{
+  border-radius: 5px;
+  width: 34px;
+  height: 34px;
+}
+.flex{
+  display: flex;
+}
+.flex-grow1{
+  flex-grow: 1;
+}
+.flex-grow2{
+  flex-grow: 2;
+}
+.flex-grow3{
+  flex-grow: 3;
+}
+.flex-grow4{
+  flex-grow: 4;
+}
+.flex-grow5{
+  flex-grow: 5;
+}
+.float-r{
+  float: right;
+}
+.float-l{
+  float: left;
+}
