@@ -1,0 +1,124 @@
+/*div{
+  outline-color: gray;
+  outline-style: dotted;
+  outline-width: 1px;
+}*/
+.blog-header{
+  background: rgb(212, 239, 233);
+  height:120px;
+  color: white;
+  position: relative;
+
+}
+#blog-title{
+  margin-top:0;
+  margin-bottom:0;
+  padding-top: 10px;
+  padding-right: 10px;
+  padding-bottom: 10px;
+  padding-left: 20px;
+}
+span{
+  color:rgb(97, 202, 188);
+}
+#blog-subtitle{
+  color: gray;
+  margin-top:0;
+  margin-bottom: 0;
+  padding-top: 0;
+  padding-right: 10px;
+  padding-bottom: 10px;
+  padding-left: 50px;
+}
+.clearfix::after {
+   content: '';
+   display: block;
+   clear: both;
+}
+.blog-index{
+  background: rgba(16, 16, 16, 0.81);
+  justify-content: flex-end;
+  position: absolute;
+  bottom: 0px;
+  width: 100%;
+  font-size: 20px;
+  color: white;
+}
+.blog-index-item{
+  float: right;
+  text-decoration: none;
+  margin-top: 5px;
+  margin-left: 30px;
+  margin-bottom: 5px;
+  padding-left: 20px;
+  padding-right: 20px
+}
+.item-i{
+  color: white;
+  text-decoration: none;
+}
+a:focus{
+  color: rgb(97, 202, 188);
+}
+a:hover{
+    color: rgb(97, 202, 188);
+}
+.blog-container{
+  width: 100%;
+  display: flex;
+}
+.blog-content{
+  flex-grow: 2;
+  padding: 30px;
+}
+.blog-content-cell{
+  border-bottom-color: gray;
+  border-bottom-width:1px;
+  border-bottom-style:dotted;
+  padding-bottom: 20px;
+
+}
+.blog-content-date{
+  color: gray;
+}
+.blog-content-title{
+  font-size: 30px;
+}
+.blog-sidebar{
+  flex-grow: 1;
+  height:800px;
+  text-align: center;
+  background: rgba(204, 236, 229, 0.84);
+  border-left-color: #B1DBDC;
+  border-left-width:1px;
+  border-left-style:solid;
+
+
+}
+.blog-sidebar-img{
+  border-radius: 50%;
+  width: 100px;
+  height:100px;
+  margin-top: 20px;
+}
+.blog-sidebar-p{
+  text-align: center;
+  font-family: fantasy;
+}
+.blog-sidebar-ul{
+  margin-top: 10px;
+  margin-left: 50px:
+
+}
+.blog-footer{
+  background:rgb(242, 215, 196) ;
+  color: white;
+  text-align: center;
+  height: 80px;
+}
+.blog-footer-p{
+  margin-top: 0;
+  margin-bottom: 0;
+  padding-top: 10px;
+  padding-bottom: 10px;
+}
